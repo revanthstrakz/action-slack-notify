@@ -1,6 +1,6 @@
-name: 'Slack Notify'
+name: 'Notify Slack'
 description: 'This action will send a notification to Slack'
-author: 'rtCamp'
+author: 'revanthstrakz'
 runs:
     using: 'composite'
     steps:
