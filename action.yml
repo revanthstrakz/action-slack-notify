@@ -1,4 +1,4 @@
-name: 'Notify Slack'
+name: 'Clean Slack'
 description: 'This action will send a notification to Slack'
 author: 'revanthstrakz'
 runs:
