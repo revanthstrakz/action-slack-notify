@@ -45,7 +45,7 @@ runs:
 
       - name: "Slack Notification (Unformatted)"
         if: env.SLACKIFY_MARKDOWN != 'true'
-        uses: "docker://ghcr.io/revanthstrakz/action-slack-notify:v2.3.3"
+        uses: "docker://ghcr.io/revanthstrakz/action-slack-notify:v2"
         env:
           GITHUB_RUN: "${{ github.event.repository.html_url }}/actions/runs/${{ github.run_id }}"
 branding:
